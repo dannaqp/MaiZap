@@ -45,14 +45,16 @@ Connecta centraliza la comunicación a través de:
 
 ```text
 Gestion de correos /
-├── app-go/                  # Cliente y Servidor en Go
-├── auth-service/            # Servicio de autenticación en FastAPI (Python)
-├── network/                 # Configuración de red y reglas de comunicación inter-sedes
-├── research/                # Investigaciones y análisis previos
-├── docs/                    # Documentación del proyecto
-│   └── especificacion-requisitos.pdf  # Análisis, especificación de requisitos, casos de uso, matriz y guion
-├── tests/                   # Pruebas de integración y validación
-├── docker-compose.yml       # Orquestación de contenedores (Servidor Go, FastAPI, BD)
+├── app-go/                      # Cliente y Servidor en Go
+├── auth-service/                # Servicio de autenticación en FastAPI (Python)
+├── network/                     # Configuración de red y reglas de comunicación inter-sedes
+│   └── topologia-sedes.pkt      # Archivo funcional de Cisco Packet Tracer (con configuraciones integradas)
+├── research/                    # Investigaciones y análisis previos
+├── docs/                        # Documentación del proyecto
+│   ├── especificacion-requisitos.pdf  # Análisis y requisitos
+│   └── informe-progreso-semana9.pdf   # Informe de progreso, diagramas y tabla de direccionamiento
+├── tests/                       # Pruebas de integración y validación
+├── docker-compose.yml           # Orquestación de contenedores
 ├── .gitignore
 ├── LICENSE
-└── README.md
+└── README.md                    # Descripción general del repositorio
