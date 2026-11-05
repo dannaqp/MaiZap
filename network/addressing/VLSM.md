@@ -28,7 +28,7 @@
 
 ## WAN NETWORK DATA
 
-| Parámetro | Address |
+| Parameter | Address |
 |---|---|
 | Net | 192.168.100.0 |
 | 1st Usable | 192.168.100.1 |
