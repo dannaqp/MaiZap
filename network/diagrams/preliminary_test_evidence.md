@@ -31,6 +31,7 @@
 *Figure 3: Gigabit and FastEthernet interfaces operating in trunk mode and allowing the project VLANs at Site A.*
 
 ![Figure3](Figure3.png)
+![Figure3_1](Figure3_1.png)
 
 ## 2. Local Layer 3: DHCP and Inter-VLAN Routing
 
@@ -66,9 +67,10 @@
 > **Command used:** `do show ip route` (on Site A and Site B)
 
 
-*Figure 7: Site A Router showing the 10.10.1.0/x networks learned via EIGRP (marked with 'D') on Site A.*
+*Figure 7: Site A Router showing the 10.10.1.0/x networks learned via EIGRP (marked with 'D').*
 
 ![Figure7](Figure7.png)
+![Figure7_1](Figure7_1.png)
 
 
 *Figure 8: Console message confirming 'Neighbor Adjacency' across the 192.168.100.0 network.*
@@ -83,5 +85,3 @@
 *Figure 9: Successful ping from the Users PC at Site A (10.10.0.x) to the Users PC at Site B (10.10.1.x).*
 
 ![Figure9](Figure9.png)
-
-*End of evidence document.*
