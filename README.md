@@ -222,21 +222,6 @@ Para ejecutar las pruebas automatizadas (modelos, servicios y un recorrido HTTP 
 go test ./...
 ```
 
-## Guion de demostración
-
-Este recorrido cubre lo que se revisa en la entrega (inicio del servidor, conexión, operaciones principales y errores):
-
-1. Terminal 1: `go run ./cmd/server`.
-2. Terminal 2: `go run ./cmd/client`. Se muestra «Conectado a 127.0.0.1:8080».
-3. Opción `9`: el cliente responde que la **opción no existe**.
-4. `2` con `ana.torres@maizap.com`, luego `2) Bandeja de entrada`: aparece `MSG-000002` marcado como no leído.
-5. `4` con `MSG-000002`: se muestra el contenido y el mensaje queda leído.
-6. `1` con destinatarios `luis.paredes@maizap.com, fantasma@maizap.com, x@gmail.com`, asunto vacío y cuerpo vacío. El servidor responde con un **error de validación** que lista los cuatro problemas.
-7. `1` con un envío válido a `luis.paredes@maizap.com`, luego `3) Mensajes enviados`.
-8. `7` con `USR-0003`: la operación queda **no autorizada** (403), porque Ana no es administradora.
-9. `5` con `MSG-000002`: el mensaje se elimina solo del buzón de Ana.
-10. `8` para cerrar sesión, luego `2` con `luis.paredes@maizap.com`: Luis ve el mensaje nuevo de Ana.
-11. Detener el servidor (`Ctrl+C`) y usar cualquier opción en el cliente: aparece el **error de conexión**.
 
 ## API del servidor
 
