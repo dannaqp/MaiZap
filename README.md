@@ -312,15 +312,6 @@ curl -s -X POST http://127.0.0.1:8080/api/v1/sessions -H "Content-Type: applicat
 - **Eliminación lógica**: el mensaje desaparece solo del buzón de quien lo elimina y no existe una papelera para recuperarlo.
 - **Pruebas en un solo equipo o red local**: la integración entre las dos sedes (VLAN y OSPF) corresponde a fases posteriores.
 
-## Autores y contribuciones
-
-| Integrante | Contribuciones |
-|------------|----------------|
-| Emilio Cuenca | _Completar_ |
-| Danna Simaluisa | _Completar_ |
-| Camila Villagran | _Completar_ |
-
-Cada integrante debe registrar su trabajo con commits propios para que el historial muestre su contribución.
 
 ## Créditos, licencia y declaración de uso de IA
 
