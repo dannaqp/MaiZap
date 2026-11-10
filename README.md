@@ -94,7 +94,6 @@ go version
 ```bash
 git clone https://github.com/dannaqp/MaiZap.git
 cd MaiZap
-git checkout emilio-cuenca
 cd app-go
 go build ./...
 go test ./...
